@@ -1,0 +1,59 @@
+.topHead {
+    
+    background: url(../images/bg-hero-mobile.svg);
+    background-color: rgb(226, 248, 246);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    // height: 100vh;
+
+    &_img {
+        width: 35%;
+    }
+
+    h1 {
+        margin-top: 60px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        width: 90%;
+        margin: auto;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+
+    &_imagebanner {
+        margin-top: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .topHead {
+
+        &_img {
+            width: 15%;
+        }
+
+
+    }
+    .flex {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+
+        h1 {
+            width: 400px;
+        }
+
+        p {
+            margin-left: 0;
+            width: 530px;
+        }
+    }
+
+
+    .topHead_imagebanner {
+        flex-basis: 50%;
+    }
+}
